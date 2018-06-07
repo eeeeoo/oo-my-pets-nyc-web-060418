@@ -42,6 +42,8 @@ class Owner
   end
 
   def buy_fish(name)
+    binding.kpry
     @pets[:fishes] << @name
+
   end
 end
