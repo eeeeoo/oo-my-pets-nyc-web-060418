@@ -36,4 +36,8 @@ class Owner
   def name
     @name
   end
+
+  def pets
+    @pets
+  end
 end
