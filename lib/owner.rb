@@ -73,14 +73,16 @@ class Owner
   end
 
   def sell_pets
-    # @pets.each do |pet_type|
-    #   pet_type.each do |pet|
-    #     pet.mood = "nervous"
-    #   end
-    # end
-    # @pets.reset_all
-    @pets
-    binding.pry
+    pets[:dogs].each do |dog|
+      dog.mood = "nervous"
+    end
+    pets[:cats].each do |cat|
+      cat.mood = "nervous"
+    end
+    pets[:fishes].each do |fish|
+    fish.mood = "nervous"
+    end
+    @pets.reset_all
   end
   # binding.pry
 
