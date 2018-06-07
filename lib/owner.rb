@@ -7,8 +7,9 @@ class Owner
   end
 
   def self.all
-    @@all 
+    @@all
   end
+  
   def self.reset_all
     self.all.clear
   end
