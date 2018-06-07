@@ -3,8 +3,8 @@ class Owner
   @@all = []
 
   attr_accessor :fishes, :cats, :dogs
-  
-  def initialize
+
+  def initialize (pets)
     @pets = {fishes: [], cats: [], dogs: []}
   end
 
