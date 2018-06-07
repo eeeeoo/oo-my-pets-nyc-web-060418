@@ -2,11 +2,13 @@ class Owner
   # code goes here
   @@all = []
 
+  attr_reader :species
   attr_accessor :fishes, :cats, :dogs
 
   def initialize (pets)
     @pets = {fishes: [], cats: [], dogs: []}
     @@all << self
+    @species
   end
 
   def self.all
@@ -19,5 +21,9 @@ class Owner
 
   def self.count
     @@all.length
+  end
+
+  def species
+
   end
 end
