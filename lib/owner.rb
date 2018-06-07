@@ -82,7 +82,7 @@ class Owner
     pets[:fishes].each do |fish|
     fish.mood = "nervous"
     end
-    @pets.reset_all
+    @pets.clear
   end
   # binding.pry
 
