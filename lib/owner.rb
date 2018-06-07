@@ -42,7 +42,6 @@ class Owner
   end
 
   def buy_fish(name)
-    binding.pry
     @pets[:fishes] << name
 
   end
